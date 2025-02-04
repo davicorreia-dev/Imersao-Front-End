@@ -66,7 +66,7 @@
     background: transparent;
     border: none;
     padding: 0px 100px 0 12px;
-    color: #fff;
+    color: var(--font-color-primary);
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
@@ -74,21 +74,23 @@
 }
 
 .header__login .subscribe{
-    color: #a7a7a7;
+    color: var(--font-color-secundary);
     font-size: 16px;
     font-weight: 700;
     background-color: transparent;
     border: none;
     margin-right: 32px;
+    cursor: pointer;
 }
 
 .header__login .login{
     width: 100px;
     height: 48px;
-    color: #000;
+    color: var(--bg-body-color);
     font-size: 16px;
     font-weight: 700;
     border-radius: 40px;
+    cursor: pointer;
 }
 
 .playlist-container{
@@ -104,14 +106,14 @@
 }
 
 .playlist .greeting{
-    color: #fff;
+    color: var(--font-color-primary);
     font-size: 32px;
     font-weight: 700;
     margin-bottom: 48px;
 }
 
 .playlist .greeting-subtitle{
-    color: #fff;
+    color: var(--font-color-primary);
     font-size: 24px;
     font-weight: 700;
 }
