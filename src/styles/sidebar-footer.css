@@ -1,5 +1,6 @@
 body{
     background-color: black;
+    font-family: var(--font-dm-sans);
 }
 
 .sidebar{ 
@@ -12,13 +13,13 @@ body{
 }
 
 .sidebar__navigation{
-    background-color: #121212;
+    background-color: var(--bg-container-color);
     border-radius: 8px;
     padding: 16px 0 0 16px;  /*Definição do padding em sentido horário, ou seja, cima, direita, baixo, esquerda.*/
 }
 
 .sidebar__navigation .logo{
-    background: #121212;
+    background: var(--bg-container-color);
     display: flex;
     border-radius: 8px;
     padding: 16px 0 0 16px;
@@ -40,11 +41,10 @@ body{
     text-decoration: none;
     font-weight: 600;
     font-size: 14px; /* Isso vale também para os ícones */
-    font-family: "DM Sans", sans-serif;
 }
 
 .library {
-    background-color: #121212;
+    background-color: var(--bg-container-color);
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
@@ -69,7 +69,6 @@ body{
     border: 0px;
     font-size: 1rem;
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
     text-align: center;
     text-decoration: none;
     text-transform: none;
@@ -110,7 +109,6 @@ body{
 .section-playlist__content .text{
     padding-bottom: 14px;
     color: #fff;
-    font-family: "DM Sans", sans-serif;
 }
 
 .section-playlist__content .title{
@@ -130,7 +128,6 @@ body{
     border-radius: 20px;
     font-size: 12px;
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
     text-decoration: none;
     text-transform: none;
     padding: 10px;
